@@ -19,6 +19,7 @@ Educational and operational support for advisors; not investment, legal, or tax 
 | `/prospect-intake` | Normalizes a prospect's statements into a summary, an analyst handoff, and a what-to-expect memo. |
 | `/portfolio-rebalance-review` | Reviews performance, drift vs. IPS or model, and model mapping; drafts a tax-aware rebalance plan for the advisor to evaluate, with alternatives on request, and a memo documenting the advisor’s rationale. |
 | `/alts-brief` | Meeting-ready read on a household's alternative investments, sized against the liquid book. |
+| `/mutual-fund-analysis` | Analyzes and compares mutual fund schemes against their categories across 1-month to 5-year horizons, with the source's risk statistics and a per-horizon factor scorecard; no recommendations or good/bad labels. |
 | `/estate-and-tax-brief` | Cross-checks the estate plan against actual account titling and beneficiaries; prior-year tax look-back; optional CRM follow-up tasks. |
 
 Each skill pulls from whichever connectors are live and falls back to paste/upload when a system isn't connected. Every write to a client system pauses for advisor approval.
